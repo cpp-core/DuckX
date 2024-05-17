@@ -38,7 +38,7 @@ endif()
 add_library(duckx::duckx ALIAS duckx)
 
 target_include_directories(duckx PUBLIC
-    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
 )
 
